@@ -1,5 +1,7 @@
 # Entity Extractor Card
 
+![Banner](docs/banner.png)
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
 Carte Lovelace Home Assistant pour extraire et exporter les entités sous différents formats.
