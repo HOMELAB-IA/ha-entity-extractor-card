@@ -4,6 +4,8 @@
 
 Carte Lovelace Home Assistant pour extraire et exporter les entités sous différents formats.
 
+![Aperçu de la carte](docs/preview.svg)
+
 ## Fonctionnalités
 
 - Affichage d'une galerie jusqu'à 18 entités avec aperçu en direct

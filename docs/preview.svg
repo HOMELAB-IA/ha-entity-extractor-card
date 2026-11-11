@@ -1,0 +1,79 @@
+<svg width="480" height="420" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <!-- Card background -->
+  <rect width="480" height="420" rx="16" fill="#1c1c1e"/>
+
+  <!-- Header -->
+  <text x="20" y="36" font-size="16" font-weight="600" fill="#e1e1e1">Extracteur d'entités</text>
+  <rect x="336" y="16" width="124" height="28" rx="6" fill="rgba(3,169,244,.12)" stroke="rgba(3,169,244,.3)" stroke-width="1"/>
+  <text x="348" y="34" font-size="12" fill="#03a9f4">⬇  Exporter</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="52" x2="460" y2="52" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+  <!-- Entity rows -->
+  <!-- Row 1 -->
+  <circle cx="36" cy="80" r="10" fill="rgba(255,193,7,.18)"/>
+  <text x="34" y="84" font-size="11" fill="#ffc107" text-anchor="middle">💡</text>
+  <text x="56" y="77" font-size="13" font-weight="500" fill="#e1e1e1">light.salon</text>
+  <text x="56" y="92" font-size="11" fill="#9b9b9b">on</text>
+  <circle cx="446" cy="80" r="6" fill="#4caf50" opacity=".8"/>
+
+  <!-- Row 2 -->
+  <circle cx="36" cy="122" r="10" fill="rgba(3,169,244,.18)"/>
+  <text x="34" y="126" font-size="11" fill="#03a9f4" text-anchor="middle">🌡</text>
+  <text x="56" y="119" font-size="13" font-weight="500" fill="#e1e1e1">sensor.temperature_salon</text>
+  <text x="56" y="134" font-size="11" fill="#9b9b9b">21.4 °C</text>
+  <circle cx="446" cy="122" r="6" fill="#4caf50" opacity=".8"/>
+
+  <!-- Row 3 -->
+  <circle cx="36" cy="164" r="10" fill="rgba(156,39,176,.18)"/>
+  <text x="34" y="168" font-size="11" fill="#ba68c8" text-anchor="middle">🔌</text>
+  <text x="56" y="161" font-size="13" font-weight="500" fill="#e1e1e1">switch.prise_bureau</text>
+  <text x="56" y="176" font-size="11" fill="#9b9b9b">off</text>
+  <circle cx="446" cy="164" r="6" fill="#f44336" opacity=".8"/>
+
+  <!-- Row 4 -->
+  <circle cx="36" cy="206" r="10" fill="rgba(76,175,80,.18)"/>
+  <text x="34" y="210" font-size="11" fill="#4caf50" text-anchor="middle">🌿</text>
+  <text x="56" y="203" font-size="13" font-weight="500" fill="#e1e1e1">sensor.humidite_jardin</text>
+  <text x="56" y="218" font-size="11" fill="#9b9b9b">68 %</text>
+  <circle cx="446" cy="206" r="6" fill="#4caf50" opacity=".8"/>
+
+  <!-- Row 5 -->
+  <circle cx="36" cy="248" r="10" fill="rgba(255,152,0,.18)"/>
+  <text x="34" y="252" font-size="11" fill="#ff9800" text-anchor="middle">🚪</text>
+  <text x="56" y="245" font-size="13" font-weight="500" fill="#e1e1e1">binary_sensor.porte_entree</text>
+  <text x="56" y="260" font-size="11" fill="#9b9b9b">off</text>
+  <circle cx="446" cy="248" r="6" fill="#f44336" opacity=".8"/>
+
+  <!-- Row 6 -->
+  <circle cx="36" cy="290" r="10" fill="rgba(3,169,244,.18)"/>
+  <text x="34" y="294" font-size="11" fill="#03a9f4" text-anchor="middle">📡</text>
+  <text x="56" y="287" font-size="13" font-weight="500" fill="#e1e1e1">sensor.ups_battery_charge</text>
+  <text x="56" y="302" font-size="11" fill="#9b9b9b">92 %</text>
+  <circle cx="446" cy="290" r="6" fill="#4caf50" opacity=".8"/>
+
+  <!-- Divider before export buttons -->
+  <line x1="20" y1="316" x2="460" y2="316" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+  <!-- Export format buttons -->
+  <text x="20" y="340" font-size="11" fill="#9b9b9b" font-weight="600" letter-spacing="1">FORMAT D'EXPORT</text>
+
+  <rect x="20" y="352" width="68" height="28" rx="6" fill="rgba(3,169,244,.18)" stroke="rgba(3,169,244,.4)" stroke-width="1"/>
+  <text x="54" y="370" font-size="12" fill="#03a9f4" text-anchor="middle" font-weight="500">YAML</text>
+
+  <rect x="96" y="352" width="68" height="28" rx="6" fill="rgba(255,255,255,.06)"/>
+  <text x="130" y="370" font-size="12" fill="#9b9b9b" text-anchor="middle">JSON</text>
+
+  <rect x="172" y="352" width="68" height="28" rx="6" fill="rgba(255,255,255,.06)"/>
+  <text x="206" y="370" font-size="12" fill="#9b9b9b" text-anchor="middle">CSV</text>
+
+  <rect x="248" y="352" width="98" height="28" rx="6" fill="rgba(255,255,255,.06)"/>
+  <text x="297" y="370" font-size="12" fill="#9b9b9b" text-anchor="middle">Entity list</text>
+
+  <rect x="354" y="352" width="106" height="28" rx="6" fill="rgba(255,255,255,.06)"/>
+  <text x="407" y="370" font-size="12" fill="#9b9b9b" text-anchor="middle">Markdown</text>
+
+  <!-- Entity count badge -->
+  <text x="20" y="406" font-size="11" fill="#9b9b9b">6 entités sélectionnées · Galerie : 18 max</text>
+</svg>
