@@ -17,6 +17,10 @@ Carte Lovelace Home Assistant pour extraire et exporter les entités sous diffé
 
 ## Installation via HACS
 
+[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HOMELAB-IA&repository=ha-entity-extractor-card&category=lovelace)
+
+Ou manuellement :
+
 1. Dans HACS, aller dans **Frontend** → **⋮** → **Dépôts personnalisés**
 2. Ajouter `https://github.com/HOMELAB-IA/ha-entity-extractor-card` (catégorie : **Lovelace**)
 3. Chercher **Entity Extractor Card** et cliquer **Télécharger**
